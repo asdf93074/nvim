@@ -28,5 +28,6 @@ return require('packer').startup(function(use)
       'neoclide/coc.nvim',
       branch = 'release'
   }
+  use { "catppuccin/nvim", as = "catppuccin" }
 end)
 

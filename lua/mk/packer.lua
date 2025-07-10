@@ -29,5 +29,7 @@ return require('packer').startup(function(use)
       branch = 'release'
   }
   use { "catppuccin/nvim", as = "catppuccin" }
+  use 'junegunn/vim-easy-align'
+
 end)
 
